@@ -22,10 +22,15 @@
   <link href="assets/fonts/style.css" rel="stylesheet">
   <link rel="stylesheet" href="assets/MH/css/mbr-additional.css" type="text/css">
   
-  
-  
+ 
 </head>
 <body>
+ <style>
+#wrap { width: 450px; height: 250px; padding: 0; overflow: hidden; }
+ 
+#frame { zoom: 1; -moz-transform: scale(1); -moz-transform-origin: 0 0; }
+</style>
+  
   <section class="menu cid-rrZUetpNCI" once="menu" id="menu1-r">
 
     
@@ -132,8 +137,9 @@ Your browser does not support the video tag.
 
 		
             <div class="mbr-text col-12 mbr-fonts-style display-7 col-md-12"><p>
-             <iframe style="border:none" width="450em" height="250em" scrolling="no" src="assets/d3.html "></iframe>  
-
+			<div id="wrap">
+             <iframe  id="frame" style="border:none" width="450px" height="250px" scrolling="no"  src="assets/d3.html "></iframe>  
+</div>
 				</div>
 			 
     </div>
