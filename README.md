@@ -4,4 +4,4 @@
 </br>
 جهت مشاهده با آدرس زیر وارد شوید
 </br>
-https://miladhatam.github.io/BlueDream/assets/d3.html
+https://miladhatam.github.io/BlueDream/
